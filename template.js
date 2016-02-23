@@ -22,11 +22,11 @@ var template = '\
 <tr style="width:100%"> \
 <td style="background-color:#77ffff; vertical-align: top; min-width:100px;"><br> \
 <a href="/index.html">Home</a><br><br> \
-<a href="/projects.html">Projects</a><br><br> \
-<a href="/tutorial-cydia-repo.html">Tutorial: How to host your own Cydia repo</a><br><br> \
-<a href="/c-autoreleasepool.html">C-Autoreleasepool project</a><br><br> \
-<a href="/surutcra.html">Surutcra - A Twitter client</a><br><br> \
-<a href="/ncforward.html">NCForward - Forward your notifications</a><br><br> \
+<a href="http://geckocodes.org/index.php?arsenal=1">Codetype Documentation</a><br><br> \
+<a href="http://geckocodes.org/index.php?arsenal=2"> Button Conditionals</a><br><br> \
+<a href="http://geckocodes.org/index.php?arsenal=3">Data Conversions</a><br><br> \
+<a href="http://geckocodes.org/index.php?gct=">Online GCT Creator</a><br><br> \
+<a href="http://geckocodes.org/AH.php">Accio Hacks</a><br><br> \
 <a href="http://github.com/BannerBomb/" target="_blank">Github</a><br><br> \
 </td> \
 <td> \
