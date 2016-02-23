@@ -1,0 +1,50 @@
+<div id="title">NCForward tweak project</div>
+<div id="content">
+<h2>NCForward documentation and more</h2>
+<h3>A feature Apple, should have implemented way earlier</h3>
+<h4>Short version</h4>
+<a href="http://BanerBomb.github.io/repo/" target="blank_"><b>Download the Cydia tweak here.</b></a><br>
+<a href="Files/NCForward1.exe" target="blank_"><b>Download the Windows client here.</b></a>
+<h4>Long version</h4>
+NCforward is a small project i started to implement a feature in iOS Apple should have implemented way earlier.
+The feature is to forward every single notification you get on your loved iDevice to any other computer in your local network.
+No matter what OS, no matter how these are displayed, just forward them, anywhere. Currently i only wrote a Windows client but making one for Mac/Linux/...
+is not hard at all if you know a bit about scripting and networking! Look down for more info!
+You can download the Tweak, which you WILL have to install, right here on my repo: <a href="http://BannerBomb.github.io/repo/" target="blank_">BannerBomb' Cydia repo</a>.
+You can install the Windows "client" counterpart by clicking on <a href="Files/NCForward1.exe" target="blank_">THIS LINK</a>, downloading the file and
+putting it into your Autostart folder (Which is somwhere here: C:\Users\[Username]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup).
+If you don't want to reboot, just execute it now by double-clicking and say yes if Windows asks you to allow network access.<br><br>
+As always, you do this ON YOUR OWN RISK!
+<h4>Protocol documentation</h4>
+As promised, it is very simple to write a notification reciever for the NCForward1 protocol. The whole thing is based on the UDP/Datagram protocol which
+allows you to have connectionless communication between two devices, so communication is as easy as i could do it. The whole thing is, the iDevice sends
+a packet (message) to a computer which is in the same network and which has a client (well, the computer is the SERVER and the iDevice is the client but
+anyways :P) running which recieves the messages and displays them on the PC. No packets are sent back as confirmation, no connection is established, just
+the very basics. This also means that EVERY single computer is able to recieve your notifications as long as you set a different reciever address in your
+settings, the default is to broadcast to the whole local network on 255.255.255.255 but you can set this to any IP in your (W)LAN.<br><br>
+The packages are sent to the port 3156 on the reciever's computer and consist of 8 parts, each of them will is separated by the characters <i>%!</i>.
+This is no good practice, i know but easy to do :P.<br><br>
+The eight parts are:<br>
+<table border="1">
+<tr><td>1</td><td>NCFV1_PV1</td><td>The protocol identifier, NCF: magic, V1: version 1, _P: magic, V1: protocol version 1. You should really check these as they
+may change soon in a later revision!</td></tr>
+<tr><td>2</td><td>bulletin.sectionDisplayName</td><td>The bulletin section display name?</td></tr>
+<tr><td>3</td><td>bulletin.topic</td><td>The topic?</td></tr>
+<tr><td>4</td><td>bulletin.sectionID</td><td>The section ID?</td></tr>
+<tr><td>5</td><td>bulletin.content.title</td><td>The title of the notification you can see on your iDevice.</td></tr>
+<tr><td>6</td><td>bulletin.content.subtitle</td><td>A subtitle?</td></tr>
+<tr><td>7</td><td>bulletin.content.message</td><td>The message of the bulletin you can see on your iDevice.</td></tr>
+<tr><td>8</td><td>bulletin.date.description</td><td>Some date.</td></tr>
+</table>
+As you may recognized, only numbers 1, 5 and 7 are currently used by my Windows client, i don't really know what the others are.
+If you came up with something awesome, tell me (<a href="mailto:BannerBomb55@gmail.com?subject=BannerBombs website - NCForward">BannerBomb55@gmail.com</a>)
+and i will (maybe) link it here!<br><br>
+This piece of software is completely open-source, look at <a href="http://github.com/BannerBomb/ncforward/" target="blank_">the Github repo here!</a><br><br>
+</div>
+
+<!-- include this everywhere you want the standard design template from here... -->
+<script type="text/javascript" src="template.js"></script>
+<noscript>
+As this website uses JavaScript to generate a semi-dynamically created page, you need to activate JavaScript!
+</noscript>
+<!-- ...until here! -->
