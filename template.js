@@ -36,7 +36,7 @@ var template = '\
 </td> \
 \
 <td style="overflow:hidden; white-space: pre-wrap; background-color:#77ffff; vertical-align: top;"> \
-<iframe src="/counter.html" seamless="seamless" frameBorder="0"></iframe>\
+<iframe src="/counter1.html" seamless="seamless" frameBorder="0"></iframe>\
 </td> \
 \
 </tr> \
