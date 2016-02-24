@@ -42,6 +42,10 @@ var template = '\
 	<meta http-equiv="content-type" content="text/html" charset="utf-8"/> \
 	<meta charset="UTF-8"> \
 	<link rel="shortcut icon" href="/favicons/favicon-desktop.ico"> \
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicons/favicon-desktop.ico"> \
+	<meta name="msapplication-TileColor" content="#FFFFFF"> \
+	<meta name="msapplication-TileImage" content="/favicons/favicon-desktop-144.png"> \
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml"> \
 	<meta name="robots" content="index,follow"> \
 	<meta http-equiv="cache-control" content="Public|Private"> \
 	<title>'+title+'</title> \
