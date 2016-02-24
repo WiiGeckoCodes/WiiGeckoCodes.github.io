@@ -41,7 +41,7 @@ var template = '\
 <head> \
 	<meta http-equiv="content-type" content="text/html" charset="utf-8"/> \
 	<meta charset="UTF-8"> \
-	<link rel="shortcut icon" href="favicons/favicon-desktop.png"> \
+	<link rel="shortcut icon" href="/Files/H6nry-Icon.png"> \
 	<meta name="robots" content="index,follow"> \
 	<meta http-equiv="cache-control" content="Public|Private"> \
 	<title>'+title+'</title> \
