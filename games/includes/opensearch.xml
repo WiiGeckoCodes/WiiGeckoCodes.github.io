@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
    <ShortName>GeckoCodes.org</ShortName>
-   <Image width="16" height="16" type="image/x-icon">http://geckocodes.org/includes/favicon.ico</Image> 
-   <Description>Search GeckoCodes.org for hacked games or enter a known GameID to go right to it.</Description>
-   <Url type="text/html" method="get" template="http://geckocodes.org/?search={searchTerms}"/>
+   <Image width="16" height="16" type="image/x-icon">http://wiigeckocodes.github.io/includes/favicon.ico</Image> 
+   <Description>Search WiiGeckoCodes.github.io for hacked games or enter a known GameID to go right to it.</Description>
+   <Url type="text/html" method="get" template="http://wiigeckocodes.github.io/?search={searchTerms}"/>
  </OpenSearchDescription>
