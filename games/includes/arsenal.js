@@ -1,4 +1,4 @@
-//this document copyright 2010 - 2012 James Atherton
+//this document copyright 2010 - 2015 BannerBomb
 
 var lnbreaks=document.all?"\r\n":"\n";
 
@@ -356,7 +356,7 @@ function SetButtons()
 
 function DebugDump(ToThisID, StartAt)
 {
-	/*Function By James Atherton - http://geckocodes.org/?hacker=James0x57 */
+	/*Function By BannerBomb - http://wiigeckocodes.github.io/hacker/hacker.html */
 	/*You are free to copy and alter however you'd like so long as you leave the credit intact! =)*/
 	var TableRow = "\n<tr><td>Form Name</td><td>Input Type</td><td>Input Name</td><td>Input Title</td><td>Input Alt</td><td title='Input Value'>Input Value</td></tr>";
 	var AllInputs = document.getElementsByTagName("input");
