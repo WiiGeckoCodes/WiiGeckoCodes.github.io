@@ -58,13 +58,13 @@ var template = '\
 <nav class="tp-dync"><br> \
 	<a href="/index.html">Home</a><br><br> \
 	<a href="/projects.html">Projects</a><br><br> \
+	<a href="/files/matrix.html">Matrix</a><br><br> \
 	<a href="http://geckocodes.org/index.php?arsenal=1">Codetype Documentation</a><br><br> \
- <a href="http://geckocodes.org/index.php?arsenal=2"> Button Conditionals</a><br><br> \
- <a href="http://geckocodes.org/index.php?arsenal=3">Data Conversions</a><br><br> \
- <a href="http://geckocodes.org/index.php?gct=">Online GCT Creator</a><br><br> \
- <a href="http://geckocodes.org/AH.php">Accio Hacks</a><br><br> \
- <a href="http://github.com/BannerBomb/" target="_blank">Github</a><br><br> \
- <a href="/files/matrix.html">Matrix</a><br><br> \
+ 	<a href="http://geckocodes.org/index.php?arsenal=2"> Button Conditionals</a><br><br> \
+ 	<a href="http://geckocodes.org/index.php?arsenal=3">Data Conversions</a><br><br> \
+ 	<a href="http://geckocodes.org/index.php?gct=">Online GCT Creator</a><br><br> \
+ 	<a href="http://geckocodes.org/AH.php">Accio Hacks</a><br><br> \
+ 	<a href="http://github.com/BannerBomb/" target="_blank">Github</a><br><br> \
 </nav> \
 <aside class="tp-dync"> \
 	<h4>News</h4> \
