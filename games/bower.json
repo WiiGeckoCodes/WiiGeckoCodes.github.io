@@ -1,0 +1,29 @@
+{
+  "name": "bug",
+  "main": "bug-min.js",
+  "homepage": "https://github.com/Auz/Bug",
+  "description": "Native JS library which adds bugs and/or spiders to walk around your window",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "bug",
+    "spider",
+    "spiders",
+    "fly",
+    "flies",
+    "fun",
+    "creepy"
+  ],
+  "authors": [
+    "Graham McNicoll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
