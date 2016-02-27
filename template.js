@@ -61,7 +61,7 @@ var template = '\
 	<a href="/files/matrix.html">Matrix</a><br><br> \
 	<a href="http://geckocodes.org/index.php?arsenal=1">Codetype Documentation</a><br><br> \
  	<a href="http://wiigeckocodes.github.io/buttonconditionals.html">Button Conditionals</a><br><br> \
- 	<a href="http://geckocodes.org/index.php?arsenal=3">Data Conversions</a><br><br> \
+ 	<a href="http://wiigeckocodes.github.io/dataconversions.html">Data Conversions</a><br><br> \
  	<a href="http://wiigeckocodes.github.io/gctcreator.html">Online GCT Creator</a><br><br> \
  	<a href="http://geckocodes.org/AH.php">Accio Hacks</a><br><br> \
  	<a href="http://github.com/BannerBomb/" target="_blank">Github</a><br><br> \
