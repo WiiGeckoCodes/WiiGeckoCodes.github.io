@@ -1,21 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <HTML>
 <HEAD>
-<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8"><TITLE>Gecko Codetype Documentation at GeckoCodes.org - WiiRD Code Database</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8"><TITLE>Gecko Codetype Documentation at WiiGeckoCodes.github.io - Wii Code Database</TITLE>
 
 <META NAME="keywords" CONTENT="gecko os, wii, wiird, codes, hacks, wiiware, virtual console, vc, usbgecko">
 
 <META NAME="Generator" CONTENT="NotePad, TextPad">
 
-<META NAME="description" CONTENT= "One place, all the codes. GeckoCodes.org WiiRD Hacker's Database.">
+<META NAME="description" CONTENT= "One place, all the codes. WiiGeckoCodes.github.io Wii Hacker's Database.">
 
 <META NAME="DISTRIBUTION" CONTENT="global">
 
 <META NAME="ROBOTS" CONTENT="all">
 
-<LINK rel="SHORTCUT ICON" HREF="http://geckocodes.org/includes/favicon.ico">
+<LINK rel="SHORTCUT ICON" HREF="http://wiigeckocodes.github.io/favicons/favicon.ico">
 
-<LINK rel="search" type="application/opensearchdescription+xml" href="http://geckocodes.org/includes/opensearch.xml" title="GeckoCodes.org">
+<LINK rel="search" type="application/opensearchdescription+xml" href="http://wiigeckocodes.github.io/includes/opensearch.xml" title="WiiGeckoCodes.github.io">
 
 <LINK rel="styleSheet" href="./includes/css.css" type="text/css"></HEAD>
 
@@ -25,10 +25,10 @@
 
 	<div class=top>
 
-			<div><a class=affil3 href="http://hetoan2.com/forum/" title="hetoan2.com">hetoan2 forums</a>		</div>
+			<div><a class=affil3 href="http://github.com/BannerBomb" title="BannerBombs Github">BannerBombs Github</a>		</div>
  	</div>
 	<table><tr><td id=navigation><div class=left>
-	<div class=forum><a href="./index.php?chid=R&amp;r=*">GeckoCodes.org - Updates</a></div><br>
+	<div class=forum><a href="./index.php?chid=R&amp;r=*">WiiGeckoCodes.github.io - Updates</a></div><br>
 	</div><div class=groupl><div class=channel><a href="./index.php?chid=1"  onclick="ToggleCh(); this.blur(); return false;" title="Channel Select"><img src="./includes/R.png" alt="Wii [R]"></a></div>
 <div class=chnav id=chnav>
 			<a href="./index.php?chid=R" onclick="changeNav('R', '*'); return false;">[R] Wii</a>
@@ -82,8 +82,8 @@
 		<a href="./index.php?arsenal=2">&nbsp;Button Conditionals</a>
 		<a href="./index.php?arsenal=3">&nbsp;Data Conversions</a>
 		<a href="./index.php?gct=">&nbsp;Online GCT Creator</a>
-		<a href="./AH.php" title='Official GeckoCodes Homebrew App by James0x57'>&nbsp;Accio Hacks</a>
-		<a href="http://twitter.com/GeckoCodes/">&nbsp;@GeckoCodes</a>
+		<a href="./AH.php" title='Official WiiGeckoCodes Homebrew App by BannerBomb'>&nbsp;Accio Hacks</a>
+		<a href="http://twitter.com/BannerBomb/">&nbsp;@BannerBomb</a>
 		</div><div class=hnav>
 		<div>WiiRD Hackers:</div>
 		<a href="./index.php?chid=R&amp;r=*&amp;hacker=all">&nbsp;List All Known</a>
@@ -91,35 +91,12 @@
 		</div>
 <div class="affiliate_links"><div class="affilhead">Affiliates:</div>
 <div class="row" title="The blog about the future of Wii hacking!">
-<a href="http://wiird.l0nk.org/forum/index.php" title="WiiRD Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://wiird.l0nk.org/wp/" title="WiiRD Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;WiiRD</div>
-<div class="row" title="Japanese Wii Hacking Forums">
-<a href="http://bb2.atbb.jp/wiicode/index.php" title="Japanese Wii Hacking Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>&nbsp;Wii Hacking JP</div>
-<div class="row" title="Shibby!">
-<a href="http://www.kodewerx.org/forum/" title="Kodewerx Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://www.kodewerx.org/" title="Kodewerx Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;Kodewerx</div>
-<div class="row" title="Previously GSHI.org">
-<a href="http://gamehacking.org/vb" title="GameHacking.org Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://gamehacking.org/" title="GameHacking.org Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;GameHacking.org</div>
-<div class="row" title="Codemasters Project">
-<a href="http://www.codemasters-project.net/vb/" title="CMP Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://www.codemasters-project.net/" title="CMP Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;CMP</div>
-<div class="row" title="ARCentral.net">
-<a href="http://forum.arcentral.net/" title="ARCentral.net Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://arcentral.net/" title="ARCentral.net Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;ARCentral.net</div>
-<div class="row" title="WiiPlaza Console Homebrew">
-<a href="http://hyperspeed.1talk.net/forum.htm" title="WiiPlaza Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://hyperspeed.1talk.net/" title="WiiPlaza Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;WiiPlaza</div>
-<div class="row" title="Wii-Homebrew.com">
-<a href="http://forum.wii-homebrew.com/" title="Wii-Homebrew.com Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://www.wii-homebrew.com/" title="Wii-Homebrew.com Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;Wii Homebrew</div>
-<div class="row" title="hetoan2">
-<a href="http://hetoan2.com/forum/" title="hetoan2 Forums">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
-<a href="http://hetoan2.com/" title="hetoan2 Home">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;hetoan2</div>
+<a href="http://github.com/BannerBomb" title="BannerBombs Github">&nbsp;<img alt="Forum" src="./includes/forum.png">&nbsp;</a>
+<a href="http://github.com/BannerBomb" title="BannerBombs Github">&nbsp;<img alt="Home" src="./includes/home.png">&nbsp;</a>&nbsp;BannerBomb</div>
 <br></div>
 
 </td><td><div class=list><div class=title>Gecko Codetype Documentation</div><table class=codetypes>
-				<tr><td colspan=2><div class=ctsmall>This Gecko Codetype Documentation based on work from: kenobi, Nuke, Link, Brkirch, dcx2, Skiller, wiiztec, hetoan2, Romaap, mugwhump, and James0x57.</div></td></tr>
+				<tr><td colspan=2><div class=ctsmall>This Gecko Codetype Documentation based on work from: BannerBomb.</div></td></tr>
 				<tr><td><div class="cttitle b4 c4">Direct Ram Writes</div><div class="ct bg1 b8"><div class="title b3 c3 bg5">8 bits Write & Fill<a name='00'></a></div><div class=ctinfo>
 				00______ YYYY00XX<br>
 				<br>
@@ -683,7 +660,7 @@
 	<!-- End Google Analytics Code -->
 
 	<div class=copy><br>
-		This Page and Source Code &copy; Copyright 2008-2014, <a href="./index.php?hacker=James0x57">James Atherton</a>. All content is property of their original creators and may be removed by them at any time.
+		This Page and Source Code &copy; Copyright 2008-2014, <a href="./index.php?hacker=James0x57">BannerBomb</a>. All content is property of their original creators and may be removed by them at any time.
 	</div>
 
 	<div class=endpage>
