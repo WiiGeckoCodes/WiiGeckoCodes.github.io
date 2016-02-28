@@ -45,7 +45,7 @@ body
 {
     height: 100% !important;
     margin: 0px;
-    cursor:url("http://wiigeckocodes.github.io/wii.cur"), default;
+    cursor:url("../wii.cur"), default;
     color: #000000;
 }
 .ShoutboxPM {
