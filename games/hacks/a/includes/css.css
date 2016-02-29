@@ -1379,6 +1379,11 @@ div.related form select {
 	font-family: monospace;
 	color: #000000;
 }
+}
+html
+{
+    height: 100% !important;
+}
 body
 {
     height: 100% !important;
@@ -1464,12 +1469,6 @@ body
 table {
 	font-family: Verdana, Arial, Sans-Serif;
 	font-size: 13px;
-}
-input, select, textarea {
-    background-color: #CCCCCC;
-    color: #000000;
-    font-weight: bold;
-    border: 2px solid #518FA6;
 }
 input[type=text],
 input[type=password],
