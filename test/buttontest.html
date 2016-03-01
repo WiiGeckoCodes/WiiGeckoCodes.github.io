@@ -8,34 +8,6 @@
 
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700" />
 
-<script>
-
-	(function(jQuery) {
-		try {
-			if (jQuery) {
-				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
-				var $commentFrame = jQuery('#commentArea iframe');
-				if ($commentFrame.length > 0) {
-					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
-					$commentFrame.css('min-height', frameHeight + 'px');
-				}
-				if (jQuery('.product-button').length > 0){
-					jQuery(document).ready(function(){
-						jQuery('.product-button').parent().each(function(index, product){
-							if(jQuery(product).attr('target') == 'paypal'){
-								if (!jQuery(product).find('> [name="bn"]').length){
-									jQuery('<input>').attr({
-										type: 'hidden',
-										name: 'bn',
-										value: 'DragAndDropBuil_SP_EC'
-									}).appendTo(product);
-								}
-							}
-						});
-					});
-				}
-			}
-			else {
 				// Prototype
 				$$('div.blog-social div.fb-like').each(function(div) {
 					div.className = 'blog-social-item blog-fb-like';
