@@ -105,7 +105,24 @@
 	}
 </style>
 
-
+<script type='text/javascript' src='//cdn2.editmysite.com/js/site/footerSignup.js?buildTime=1456787039'></script>
+<script type='text/javascript'>
+	var script;
+	if (typeof Weebly == 'undefined') {
+		Weebly = {};
+	}
+	if (!Weebly.jQuery) {
+		script = document.createElement('script');
+		script.onload = function() {
+			Weebly.jQuery = jQuery.noConflict(true);
+			Weebly.footer.setupContainer(Weebly.jQuery, 'cdn2.editmysite.com', '1456787039');
+		};
+		script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js';
+		document.head.appendChild(script);
+	} else {
+		Weebly.footer.setupContainer(Weebly.jQuery, 'cdn2.editmysite.com', '1456787039');
+	}
+</script>
 
 <script type='text/javascript'>
 //<!--
@@ -211,47 +228,6 @@ labels:"l0,u42338695.u42338695s891205936535769004"
 			}
 		}
 		catch(ex) {}
-	})(window._W && _W.jQuery);
-
-</script>
-<div id="eu-cookie" class="notification" style="display: none;">
-	<span id="eu-cookie-content"></span>
-	<span id="eu-cookie-close">&#10005</span>
-</div>
-
-<script type="text/javascript">
-	(function($) {
-		var cookie_location = '';
-
-		// this cookie_content should already be pre-encoded from CookieSettingView.js
-		var cookie_content = 'By using this site you consent to the use of cookies. Cookies can be managed in your browser or device settings.' || _W.tl('By using this site you consent to the use of cookies. Cookies can be managed in your browser or device settings.');
-
-		if (!_W.getCookie('891205936535769004_cookie_policy') || (_W.getCookie('891205936535769004_cookie_policy') !== cookie_content)){
-			if (cookie_location === 'top' || cookie_location === 'bottom'){
-				$('#eu-cookie-content').text(decodeURIComponent(cookie_content));
-				(cookie_location === 'top') ? animateFromTop() : animateFromBottom();
-				$('#eu-cookie').show();
-			}
-		}
-
-		$('#eu-cookie-close').click(function(){
-			_W.setCookie('891205936535769004_cookie_policy', cookie_content, 100000);
-			$('#eu-cookie').hide();
-		});
-
-		function animateFromTop(){
-			$('#eu-cookie').css({
-				'top': '0px',
-				'animation': 'reveal-top 1 2s'
-			});
-		}
-
-		function animateFromBottom(){
-			$('#eu-cookie').css({
-				'bottom': '0px',
-				'animation': 'reveal-bottom 1 2s'
-			});
-		}
 	})(window._W && _W.jQuery);
 
 </script>
