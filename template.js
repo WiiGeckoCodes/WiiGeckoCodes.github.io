@@ -63,6 +63,7 @@ var template = '\
  	<a href="http://wiigeckocodes.github.io/dataconversions.html">Data Conversions</a><br><br> \
  	<a href="http://wiigeckocodes.github.io/gctcreator.html">Online GCT Creator</a><br><br> \
  	<a href="http://wiigeckocodes.github.io/channels.html">Channel Select</a><br><br> \
+ 	<a href="http://wiigeckocodes.github.io/how-to-hack-wii.html">Hacking a Wii</a><br><br> \
  	<a href="http://wiigeckocodes.github.io/comments.html">Comments</a><br><br> \
 </nav> \
 <aside class="tp-dync"> \
