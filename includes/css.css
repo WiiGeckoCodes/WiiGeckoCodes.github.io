@@ -1584,3 +1584,92 @@ a:active .image
 {
     color: #B5CCDF !important;
 }
+/* Buttons
+--------------------------------------------------------------------------------*/
+
+/* Small structure & regular style */
+
+.wsite-button {
+	height: 36px;
+	display: inline-block;
+	padding: 0px 30px 0px 0px;
+	background: url(http://wiigeckocodes.github.io/button-highlight.png) no-repeat 100% -108px;
+}
+
+.wsite-button:hover {
+	background-position: 100% -144px;
+}
+
+.wsite-button:active {
+	background-position: 100% -180px;
+}
+
+.wsite-button-inner {
+	color: #fff !important;
+    height: 36px;
+	line-height: 36px;
+	display: block;
+	font-size: 14px;
+	padding: 0px 0px 0px 30px;
+	text-shadow:0 -1px 1px rgba(0,0,0,0.8);
+	background: url(http://wiigeckocodes.github.io/button-highlight.png) no-repeat 0px 0px;
+}
+
+.wsite-button:hover .wsite-button-inner {
+	background-position: 0px -36px;
+}
+
+.wsite-button:active .wsite-button-inner {
+	background-position: 0px -72px;
+}
+
+/* Large structure & regular style  */
+
+.wsite-button-large {
+	color: #fff !important;
+	height: 46px;
+	background: url(http://wiigeckocodes.github.io/button-highlight-large.png) no-repeat 100% -144px;
+	padding: 0px 27px 0px 0px;
+}
+
+.wsite-button-large:hover {
+	background-position: 100% -192px;
+}
+
+.wsite-button-large:active {
+	background-position: 100% -240px;
+}
+
+.wsite-button-large .wsite-button-inner {
+	height: 46px ;
+	line-height: 46px;
+	padding: 0px 0px 0px 27px;
+	background: url(http://wiigeckocodes.github.io/button-highlight-large.png) no-repeat 0px 0px;
+}
+
+.wsite-button-large:hover .wsite-button-inner {
+	background-position: 0px -48px;
+}
+
+.wsite-button-large:active .wsite-button-inner {
+	background-position: 0px -96px;
+}
+
+
+/* Highlighted styles */
+
+.wsite-button-highlight {
+	background-image: url(http://wiigeckocodes.github.io/button_teal.png);
+}
+
+.wsite-button-highlight .wsite-button-inner {
+	background-image: url(http://wiigeckocodes.github.io/button_teal.png);
+}
+
+.wsite-button-large.wsite-button-highlight {
+	background-image: url(http://wiigeckocodes.github.io/button_large_teal.png);
+}
+
+.wsite-button-large.wsite-button-highlight .wsite-button-inner {
+	background-image: url(http://wiigeckocodes.github.io/button_large_teal.png);
+}
