@@ -602,11 +602,11 @@ div#content {min-height:400px;}
 /* Highlighted styles */
 
 .wsite-button-highlight {
-	background-image: url(http://wiigeckocodes.github.io/test/assets/button_teal.png);
+	background-image: url(../assets/button_teal.png);
 }
 
 .wsite-button-highlight .wsite-button-inner {
-	background-image: url(http://wiigeckocodes.github.io/test/assets/button_teal.png);
+	background-image: url(../assets/button_teal.png);
 }
 
 .wsite-button-large.wsite-button-highlight {
