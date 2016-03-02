@@ -2,7 +2,7 @@ body
 {
     height: 100% !important;
     margin: 0px;
-    cursor:url("/wii.cur"), default;
+    cursor:url("http://wiigeckocodes.github.io/wii.cur"), default;
     color: #000000;
 }
 .ShoutboxPM {
@@ -177,7 +177,7 @@ legend
 a
 {
     color: #2D5369;
-    cursor:url("/wii-hover.cur"), default;
+    cursor:url("http://wiigeckocodes.github.io/wii-hover.cur"), default;
     text-decoration: none;
 }
 a:hover
