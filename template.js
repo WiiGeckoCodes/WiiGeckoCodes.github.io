@@ -56,7 +56,7 @@ var template = '\
  \
 \
 <nav class="tp-dync"><br> \
-	<a href="/index.html">Home</a><br><br> \
+	<a href="http://wiigeckocodes.github.io/subscribe.html">Newsletter Subscription</a><br><br> \
 	<a href="/files/matrix.html">Matrix</a><br><br> \
 	<a href="http://wiigeckocodes.github.io/codetypedocumentation.html">Codetype Documentation</a><br><br> \
  	<a href="http://wiigeckocodes.github.io/buttonconditionals.html">Button Conditionals</a><br><br> \
