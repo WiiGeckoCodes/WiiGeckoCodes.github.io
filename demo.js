@@ -4,14 +4,7 @@
 	$(function() {
 		$( window ).konami({
 			cheat: function() {
-				// use the jQuery alternative for flashembed.domReady
-$(function() {
-  // bind an onClick event for this second Flash container
-  $("#flash2").click(function() {
-    // same as in previous example
-    $(this).flashembed("http://wiigeckocodes.github.io/easteregg/swf/hey.swf");
-  });
-});
+				$(this).flashembed("http://wiigeckocodes.github.io/easteregg/swf/hey.swf");
 			} // end cheat
 		});
 		
