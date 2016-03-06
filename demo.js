@@ -4,8 +4,9 @@
 	$(function() {
 		$( window ).konami({
 			cheat: function() {
-				alert( '$("<a href='http://wiigeckocodes.github.io/games.a.html'></a>").click(); 
-' );
+				$( "#result" ).load( "ajax/http://wiigeckocodes.github.io/easteregg/swf/hey.swf", function() {
+					alert( "Load was performed." );
+				});' );
 			} // end cheat
 		});
 		
