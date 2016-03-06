@@ -4,7 +4,7 @@
 	$(function() {
 		$( window ).konami({
 			cheat: function() {
-				$(this).flashembed("http://wiigeckocodes.github.io/easteregg/swf/hey.swf");
+				alert( 'Congratulations http://wiigeckocodes.github.io/easteregg/swf/hey.swf' );
 			} // end cheat
 		});
 		
