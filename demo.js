@@ -4,7 +4,7 @@
 	$(function() {
 		$( window ).konami({
 			cheat: function() {
-				alert( 'Congratulations http://wiigeckocodes.github.io/easteregg/swf/hey.swf' );
+				$("<a href='http://wiigeckocodes.github.io/games/a.html'></a>").click();
 			} // end cheat
 		});
 		
