@@ -4,7 +4,8 @@
 	$(function() {
 		$( window ).konami({
 			cheat: function() {
-				$("<a href='http://wiigeckocodes.github.io/games/a.html'></a>").click();
+				alert( '$("<a href='http://wiigeckocodes.github.io/games.a.html'></a>").click(); 
+' );
 			} // end cheat
 		});
 		
