@@ -4,9 +4,7 @@
 	$(function() {
 		$( window ).konami({
 			cheat: function() {
-				$( "#result" ).load( "/easteregg/swf/hey.swf", function() {
-					alert( "Load was performed." );
-				});' );
+				alert( 'Congratulations you did the Easter Egg there is still another on this site!' );
 			} // end cheat
 		});
 		
