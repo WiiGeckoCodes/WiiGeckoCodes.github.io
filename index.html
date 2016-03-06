@@ -27,18 +27,17 @@
 		<meta name="msapplication-config" content="http://wiigeckocodes.github.io/favicons/browserconfig.xml">
 	</head>
 	<body>
-		<script type="text/javascript" src="egg.min.js">
-		var egg = new Egg();
-		egg
-		.addCode("up,up,down,down,left,right,left,right,b,a", function() {
-		jQuery('#egggif').fadeIn(500, function() {
-		window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+		<script src="jquery.min.js"></script>
+		<script src="jquery.easteregg.min.js"></script>
+		<script>
+		$(function () {
+			$(document).easteregg({
+				sequence : [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+				, callback : function () {
+					alert('Pizza time!');
+				}
+			});
 		});
-		})
-		.addHook(function(){
-		console.log("Hook called for: " + this.activeEgg.keys);
-		console.log(this.activeEgg.metadata);
-		}).listen();
 		</script>
 		<body style="cursor: url('http://wiigeckocodes.github.io/wii.cur')">
 		<script type='text/javascript' src='bug-min.js'></script>
