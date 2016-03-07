@@ -68,7 +68,7 @@ var template = '\
 </nav> \
 <aside class="tp-dync"> \
 	<h4>News</h4> \
-	--- This webpage uses HTML5 now. ---<br> \
+	--- This webpage uses HTML5 now and EASTER EGGS! ---<br> \
 	--- Noticed how the website colors change during the day? ---<br> \
 	--- Adding more to this site!. ---<br> \
 \
