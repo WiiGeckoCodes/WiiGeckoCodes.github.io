@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function toggleFullScreen() {
+  if ((document.fullScreenElement && document.fullScreenElement !== null) ||    
+   (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+    if (document.documentElement.requestFullScreen) {  
+      document.documentElement.requestFullScreen();  
+    } else if (document.documentElement.mozRequestFullScreen) {  
+      document.documentElement.mozRequestFullScreen();  
+    } else if (document.documentElement.webkitRequestFullScreen) {  
+      document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);  
+    }  
+  } else {  
+    if (document.cancelFullScreen) {  
+      document.cancelFullScreen();  
+    } else if (document.mozCancelFullScreen) {  
+      document.mozCancelFullScreen();  
+    } else if (document.webkitCancelFullScreen) {  
+      document.webkitCancelFullScreen();  
+    }  
+  }  
+}
+    </script>
+  </head>
+    <body>
+    <object>
+      <input type="button" value="Fullscreen" onclick="toggleFullScreen(); return change(this);" />
+
+<script type="text/javascript">
+function change( el )
+{
+    if ( el.value === "Fullscreen" )
+        el.value = "Exit Fullcreen";
+    else
+        el.value = "Fullscreen";
+}
+</script>
+
+<video width="400" controls autoplay>
+  <source src="easteregg.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+</object>
+  </body>
+</html>
