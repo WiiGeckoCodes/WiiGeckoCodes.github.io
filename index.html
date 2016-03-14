@@ -8,14 +8,30 @@
         }
     -->
     </script>
-    </head>
 <body>
 <p>TO CONTINUE CHOOSE ONE OF THE OPTIONS BELOW!</p><br><br>
 <center><b><p>Do you like my website?</p></b></center><br><br>
 <center><form action="http://wiigeckocodes.github.io/easteregg/hey.html" class="inline">
     <button class="float-left submit-button">NO</button></form>&nbsp;<form action="http://wiigeckocodes.github.io/index1.html" class="inline">
-    <button class="float-left submit-button">YES</button></form><p>Number of times button was clicked</p><img src="http://hitwebcounter.com/counter/counter.php?page=6336844&style=0008&nbdigits=9&type=page&initCount=0" title="Hit Web Stats" Alt="Hit Web Stats"   border="0" ></center>
-
+<script>
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
+</head>
+<p><button onclick="clickCounter()" type="button">Yes</button></p>
+<div id="result"></div>
+<br>
+<br>
 <a href="http://wiigeckocodes.github.io/indexstart.html">Click here for mobile version</a>
 </body>
 </html>
